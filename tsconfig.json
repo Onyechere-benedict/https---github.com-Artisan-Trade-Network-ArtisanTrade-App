@@ -1,0 +1,17 @@
+{
+	"extends": "expo/tsconfig.base",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@components/*": ["src/components/*"],
+			"@helpers/*": ["src/helpers/*"],
+			"@constants/*": ["src/constants/*"],
+			"@context/*": ["src/context/*"],
+			"@store": ["src/store"],
+			"@store/*": ["src/store/*"],
+			"@hooks/*": ["src/hooks/*"],
+			"@assets/*": ["assets/*"]
+		}
+	},
+	"include": ["**/*.ts", "**/*.tsx", "types/declaration.d.ts"]
+}
